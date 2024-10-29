@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar8"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFB800"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitleTextColor="#000000"
+        app:titleTextColor="#282828" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="CWH"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/share_icon_143700_1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="perehod"
+                app:srcCompat="@drawable/_643769_building_home_house_main_menu_start_113416_1" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/recipe_svgrepo_com_1__1_" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/_092564_about_mobile_ui_profile_ui_user_website_114033_1" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/like_svgrepo_com_1" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="415dp"
+        android:layout_height="664dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="6dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/clock_icon_128908_1" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginBottom="9dp"
+                android:text="Tomato (550 gr. In sauce and 350 gr. In filling) - 900 g"
+                app:layout_constraintBottom_toTopOf="@+id/textView32"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginBottom="10dp"
+                android:text="Mozzarella (or Parmesan) - 400 g"
+                app:layout_constraintBottom_toTopOf="@+id/textView38"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginBottom="9dp"
+                android:text="Garlic (in sauce) - 2 teeth"
+                app:layout_constraintBottom_toTopOf="@+id/textView39"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginBottom="10dp"
+                android:text="Basil (dried + 1 bunch of fresh basil per filling) - 1 tsp"
+                app:layout_constraintBottom_toTopOf="@+id/textView40"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginBottom="35dp"
+                android:text="Oregano - 1 tsp"
+                app:layout_constraintBottom_toTopOf="@+id/textView42"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginBottom="16dp"
+                android:text="Time: 30 min"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView42"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="317dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginBottom="46dp"
+                android:text="Nutritional and energy value:"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView22"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="80dp"
+                android:text="100g dish"
+                android:textColor="#FFB800"
+                android:textColorLink="#FFB800"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="24dp"
+                android:text="kkal"
+                app:layout_constraintBottom_toTopOf="@+id/textView49"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginBottom="24dp"
+                android:text="proteinsw"
+                app:layout_constraintBottom_toTopOf="@+id/textView50"
+                app:layout_constraintStart_toEndOf="@+id/textView45" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginBottom="24dp"
+                android:text="fats"
+                app:layout_constraintBottom_toTopOf="@+id/textView51"
+                app:layout_constraintStart_toEndOf="@+id/textView46" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="24dp"
+                android:text="carbohydrates"
+                app:layout_constraintBottom_toTopOf="@+id/textView52"
+                app:layout_constraintStart_toEndOf="@+id/textView47" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="67dp"
+                android:text="143 kkal"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="67dp"
+                android:text="17.3 g"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView49" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginBottom="34dp"
+                android:text="26.8 g"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView53"
+                app:layout_constraintStart_toEndOf="@+id/textView50" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:layout_marginBottom="34dp"
+                android:text="40 g"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView53"
+                app:layout_constraintStart_toEndOf="@+id/textView51" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="208dp"
+                android:layout_marginBottom="14dp"
+                android:text="Add to favourites"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginBottom="14dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView53"
+                app:srcCompat="@drawable/heart_like_love_twitter_icon_127132_1" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="383dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="352dp"
+                android:layout_marginEnd="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/line_2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
