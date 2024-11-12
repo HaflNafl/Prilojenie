@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="home"
+    android:id="@+id/home"
+    android:icon="@drawable/home"/>
+<item android:title="recept"
+    android:id="@+id/recept"
+    android:icon="@drawable/recipe_svgrepo_com_1"/>
+<item android:title="profile"
+    android:id="@+id/profile"
+    android:icon="@drawable/profilepro"/>
+<item android:title="saved"
+    android:id="@+id/saved"
+    android:icon="@drawable/like_svgrepo_com_1"/>
+</menu>

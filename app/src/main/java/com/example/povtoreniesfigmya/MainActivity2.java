@@ -28,18 +28,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void perehod(View view){
-        Button but =findViewById(R.id.button3);
-        but.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-        Intent inte =new Intent(MainActivity2.this, MainActivity4.class );
-        startActivity(inte);
-        Toast toast =Toast.makeText(MainActivity2.this, "Это другая страница", Toast.LENGTH_SHORT);
-
-        toast.setGravity(Gravity.END| Gravity.CENTER_VERTICAL,0,0);
-        toast.show();
+     Intent inte = new Intent(MainActivity2.this , MainActivity8.class);
+     startActivity(inte);
     }
 }
